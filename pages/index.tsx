@@ -2,8 +2,10 @@ import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 import About from "../components/About";
+import Contact from "../components/Contact";
 import Main from "../components/Main";
 import Navbar from "../components/Navbar";
+import Project from "../components/Project";
 import Skill from "../components/Skill";
 
 export default function Home() {
@@ -18,6 +20,8 @@ export default function Home() {
       <Main></Main>
       <About></About>
       <Skill></Skill>
+      <Project></Project>
+      <Contact></Contact>
     </React.Fragment>
   );
 }
